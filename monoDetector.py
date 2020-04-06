@@ -5,7 +5,7 @@ import compare
 
 def main():
     sample=cv2.imread("./data/monoEraser.jpg")
-    testImg=cv2.imread("./data/test2d.jpg")
+    testImg=cv2.imread("./data/test2.jpg")
     height, width, channels = testImg.shape
     image_size = height * width
     testImg_b= cv2.GaussianBlur(testImg, (9, 9), 2)
